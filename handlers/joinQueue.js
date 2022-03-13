@@ -35,7 +35,7 @@ module.exports.init = async function (msg) {
         }
         ik.addRow({text: 'Cancel', callback_data: JSON.stringify({c: "cancel"})});
         //TODO: send list of stations and wait time
-        const text = 'Which timeslot would you like to register for?';
+        const text = ' If you have signed up for tCarnival using eventbrite, there is no need to sign up again using the bot! Which timeslot would you like to register for?';
         messenger.send(msg.from.id, text, ik.build());
     } catch (e) {
         console.log(e);
