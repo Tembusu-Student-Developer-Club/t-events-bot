@@ -41,7 +41,7 @@ For admins:
 /settime - (admin) update the estimated waiting time in minutes. Example: \`/settime 10\`
 /getall - (admin) get the usernames of all participants by timeslot (slow)`;
 module.exports.ABOUT_MSG =
-`Welcome to Tembusu College's Kelsy Everytime Looks Slay Yas Kween (KELSY) bot. To participate in the CSC event, please register for a timeslot and show your /ticket upon arrival.
+`Welcome to Tembusu College's Kween Everytime Looks Slay Yasss (KELSY) bot. To participate in the CSC event, please register for a timeslot and show your /ticket upon arrival.
 
 This bot was built by Tembusian Nicholas Toh (@nicktohzyu)`;
 module.exports.START_MSG = "Bot started." + "\n\n" + module.exports.ABOUT_MSG + "\n\n" + module.exports.HELP_MSG;
